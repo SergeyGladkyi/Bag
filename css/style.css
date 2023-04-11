@@ -1,0 +1,57 @@
+@import url('./fonts.css');
+
+@import url('./header.css');
+
+@import url('./greeting.css');
+
+/* font-family: 'Poppins' */
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* header */
+
+/* greeating */
+
+/* feature */
+
+.feature-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 45px;
+    gap: 150px;
+}
+
+.feature-title__list {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+
+.feature-title__list:hover {
+    border-bottom: 5px solid #F59B00;
+    border-radius: 2.5px;
+}
+
+.feature-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1265px) {
+    .feature-title {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .feature-wrap {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
