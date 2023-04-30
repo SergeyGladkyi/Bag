@@ -1,0 +1,141 @@
+.form-wrap {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    background: rgba(47, 47, 47, 0.95);
+    box-shadow: 0px 0px 30px 4px rgba(232, 232, 232, 0.4);
+    border-radius: 10px;
+    margin-bottom: 130px;
+}
+
+.form-wrap-content__title {
+    max-width: 445px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 140%;
+    color: #FFFFFF;
+    padding-bottom: 45px;
+}
+
+.form-wrap-content-inp {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 30px;
+}
+
+.form-wrap-content__input {
+    background: none;
+    border: 1px solid;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.form-wrap-content__input::placeholder {
+    padding-left: 30px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.form-wrap-content-address {
+    padding-bottom: 30px;
+}
+
+.form-wrap-content-address__input {
+    background: none;
+    border: 1px solid;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.form-wrap-content-address__input::placeholder {
+    padding-left: 30px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.form-wrap-content-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.form-wrap-content-bottom__checkbox {
+    border: 1px solid #FFFFFF;
+    background: none;
+    margin-right: 10px;
+}
+
+.form-wrap-content-bottom__text {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-right: 50px;
+}
+
+.form-wrap-content-bottom__btn {
+    background: #F59B00;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+}
+
+.form-wrap-content-bottom__btn-link {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1285px) {
+    .form-wrap {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1090px) {
+    .form-wrap-content {
+        padding-right: 80px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .form-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 546px) {
+    .form-wrap-content {
+        padding-left: 90px;
+        padding-bottom: 70px;
+    }
+
+    .form-wrap-photo__img {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 470px) {
+    .form-wrap-content-inp {
+        flex-direction: column;
+    }
+
+    .form-wrap-content-address__input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .form-wrap-content__title {
+        font-size: 24px;
+    }
+}
